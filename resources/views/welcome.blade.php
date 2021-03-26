@@ -54,6 +54,9 @@
                                 </a>
                             </div>
                             <div class="mt-6 flex items-center">
+                                <div>
+                                    {{ Str::slugg($product->title) }}
+                                </div>
                                 @foreach ($product->tags->pluck('title') as $tag)
                                     <span class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-green-100 text-green-800">{{ $tag }}</span>&nbsp;
                                 @endforeach
