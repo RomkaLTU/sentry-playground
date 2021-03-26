@@ -42,6 +42,7 @@
                                 <p class="text-sm font-medium text-indigo-600">
                                     <a href="#" class="hover:underline">
                                         {{ $product->category->title }}
+                                        ,<span>{{ $product->categories->title }}</span>
                                     </a>
                                 </p>
                                 <a href="#" class="block mt-2">
