@@ -45,7 +45,7 @@
                                     </a>
                                 </p>
                                 <a href="#" class="block mt-2">
-                                    <p class="text-xl font-semibold text-gray-900">
+                                    <p class="text-xl font-semibold text-gray-800">
                                         {{ $product->title }}
                                     </p>
                                     <p class="mt-3 text-base text-gray-500">
